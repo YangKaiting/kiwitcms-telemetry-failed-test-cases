@@ -18,7 +18,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installation Of Plugin
 
 
-- in the directory root of **your** Kiwi project, run `pip install ~/telemetryPlugin/dist/telemetry_plugin-0.1.tar.gz`. Take note that **'~'** is the directory where you clone this telemetry plugin to.
+- in the directory root of **your** Kiwi project, run `pip install ~/dist/telemetry_plugin-0.1.tar.gz`. Take note that **'~'** is the directory where you clone this telemetry plugin to.
 
 ### Feature Walkthrough
 After this plugin is installed in your project. Login to your Kiwi TCMS and you will find a new sub-tab called **Failed Testcases Report** under 'Telemetry' tab.
@@ -32,6 +32,6 @@ This is a summary of all the products available, with all the testcases that wer
 
 ### Un-Installation Of Plugin
 
-- To uninstall, run `uninstall telemetry-plugin`
+- To uninstall, run `pip uninstall telemetry-plugin`
 
 
